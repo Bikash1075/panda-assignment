@@ -53,7 +53,4 @@ print(df['occupation'].describe())
 print(df['age'].mean())
 
 # What is the age with least occurrence?
-print(df['age'].value_counts().tail(1))
-
-# What is the age with least occurrence?
 print(df['age'].min())
